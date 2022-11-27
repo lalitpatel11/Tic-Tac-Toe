@@ -71,23 +71,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="computermode.Designer.vb">
-      <DependentUpon>computermode.vb</DependentUpon>
+    <Compile Include="Solo.Designer.vb">
+      <DependentUpon>Solo.vb</DependentUpon>
     </Compile>
-    <Compile Include="computermode.vb">
+    <Compile Include="Solo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="Multiplayer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Multiplayer.Designer.vb">
+      <DependentUpon>Multiplayer.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,19 +100,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="start.Designer.vb">
-      <DependentUpon>start.vb</DependentUpon>
+    <Compile Include="Startup.Designer.vb">
+      <DependentUpon>Startup.vb</DependentUpon>
     </Compile>
-    <Compile Include="start.vb">
+    <Compile Include="Startup.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="computermode.resx">
-      <DependentUpon>computermode.vb</DependentUpon>
+    <EmbeddedResource Include="Solo.resx">
+      <DependentUpon>Solo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Multiplayer.resx">
+      <DependentUpon>Multiplayer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -119,8 +120,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="start.resx">
-      <DependentUpon>start.vb</DependentUpon>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

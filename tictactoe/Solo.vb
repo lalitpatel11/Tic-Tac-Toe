@@ -1,17 +1,13 @@
-﻿Public Class computermode
+﻿Public Class Solo
     Dim random As String = 1
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         random += 1
-        If random = 10 Then
-            random = 1
-        End If
+        If random = 10 Then random = 1
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Timer1.Stop()
         Button1.Text = "O"
-
-
         Button1.Enabled = False
         Button10.Enabled = False
     End Sub
@@ -37,7 +33,6 @@
         Button9.Enabled = True
         Button10.Enabled = True
         Timer1.Start()
-
     End Sub
 
     Private Sub computermode_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -346,6 +341,7 @@
                 hit()
             End If
         End If
+
         'if user hit 8
         If Label1.Text = 8 Then
             If Button2.Text = "X" And Button5.Enabled = True Then
@@ -368,13 +364,11 @@
                     .Text = "O"
                     .Enabled = False
                 End With
-
             ElseIf Button6.Text = "X" Or Button3.Text = "X" Or Button1.Text = "X" Or Button4.Text = "X" Then
                 hit()
-
             End If
-
         End If
+
         'if user hit 9
         If Label1.Text = 9 Then
             If Button6.Text = "X" And Button3.Enabled = True Then
@@ -410,10 +404,7 @@
             ElseIf Button2.Text = "X" Or Button4.Text = "X" Then
                 hit()
             End If
-
         End If
-
-
     End Sub
     Private Sub checkIfComputerWins()
         If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "O" Or Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" Or Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" Or Button1.Text = "O" And Button4.Text = "O" And Button7.Text = "O" Or Button2.Text = "O" And Button5.Text = "O" And Button8.Text = "O" Or Button3.Text = "O" And Button6.Text = "O" And Button9.Text = "O" Or Button1.Text = "O" And Button5.Text = "O" And Button9.Text = "O" Or Button3.Text = "O" And Button5.Text = "O" And Button7.Text = "O" Then
@@ -456,11 +447,7 @@
             Button8.Enabled = True
             Button9.Text = ""
             Button9.Enabled = True
-
-
-
         End If
-
     End Sub
 
     Public Sub hit()
@@ -473,7 +460,6 @@
                         btn.Enabled = False
                     Else
                         Label1.Text = Label1.Text + 1
-
                     End If
                 End If
             Else
@@ -484,30 +470,21 @@
                         btn.Enabled = False
                     Else
                         Label1.Text = Label1.Text + 1
-
                     End If
                 End If
             End If
         Next
-
     End Sub
+
     Public Sub disable()
         Button1.Enabled = False
-
         Button2.Enabled = False
-
         Button3.Enabled = False
-
         Button4.Enabled = False
-
         Button5.Enabled = False
-
         Button6.Enabled = False
-
         Button7.Enabled = False
-
         Button8.Enabled = False
-
         Button9.Enabled = False
     End Sub
 End Class
