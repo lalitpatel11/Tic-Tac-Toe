@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class computermode
+Partial Class Solo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -45,6 +45,7 @@ Partial Class computermode
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(28, 49)
         Me.Button1.Name = "Button1"
@@ -54,6 +55,7 @@ Partial Class computermode
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(152, 49)
         Me.Button2.Name = "Button2"
@@ -63,6 +65,7 @@ Partial Class computermode
         '
         'Button3
         '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(276, 49)
         Me.Button3.Name = "Button3"
@@ -72,6 +75,7 @@ Partial Class computermode
         '
         'Button4
         '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(28, 174)
         Me.Button4.Name = "Button4"
@@ -81,6 +85,7 @@ Partial Class computermode
         '
         'Button5
         '
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(152, 174)
         Me.Button5.Name = "Button5"
@@ -90,6 +95,7 @@ Partial Class computermode
         '
         'Button6
         '
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.Location = New System.Drawing.Point(276, 174)
         Me.Button6.Name = "Button6"
@@ -99,6 +105,7 @@ Partial Class computermode
         '
         'Button7
         '
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Location = New System.Drawing.Point(28, 299)
         Me.Button7.Name = "Button7"
@@ -108,6 +115,7 @@ Partial Class computermode
         '
         'Button8
         '
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.Location = New System.Drawing.Point(152, 299)
         Me.Button8.Name = "Button8"
@@ -117,6 +125,7 @@ Partial Class computermode
         '
         'Button9
         '
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.Location = New System.Drawing.Point(276, 299)
         Me.Button9.Name = "Button9"
@@ -184,6 +193,7 @@ Partial Class computermode
         '
         'Button10
         '
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Location = New System.Drawing.Point(539, 211)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(75, 23)
@@ -193,6 +203,7 @@ Partial Class computermode
         '
         'Button11
         '
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button11.Location = New System.Drawing.Point(539, 263)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(75, 23)
@@ -203,10 +214,11 @@ Partial Class computermode
         'Timer1
         '
         '
-        'computermode
+        'Solo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(772, 514)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
@@ -224,8 +236,9 @@ Partial Class computermode
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ShapeContainer1)
-        Me.Name = "computermode"
-        Me.Text = "computermode"
+        Me.ForeColor = System.Drawing.Color.Silver
+        Me.Name = "Solo"
+        Me.Text = "Tic Tac Toe - Solo"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

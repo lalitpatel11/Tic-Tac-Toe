@@ -10,3 +10,17 @@ c:\users\lalit patel\documents\visual studio 2012\Projects\tictactoe\tictactoe\o
 c:\users\lalit patel\documents\visual studio 2012\Projects\tictactoe\tictactoe\obj\Debug\tictactoe.pdb
 C:\Users\lalit patel\Documents\Visual Studio 2012\Projects\tictactoe\tictactoe\obj\Debug\tictactoe.start.resources
 C:\Users\lalit patel\Documents\Visual Studio 2012\Projects\tictactoe\tictactoe\obj\Debug\tictactoe.computermode.resources
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.vbproj.AssemblyReference.cache
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.Solo.resources
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.Multiplayer.resources
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.Resources.resources
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.vbproj.GenerateResource.cache
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.vbproj.CoreCompileInputs.cache
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.exe
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.xml
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.pdb
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\obj\Debug\tictactoe.Startup.resources
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\bin\Debug\tictactoe.exe.config
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\bin\Debug\tictactoe.exe
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\bin\Debug\tictactoe.pdb
+C:\Users\Simon\source\repos\Tic-Tac-Toe\tictactoe\bin\Debug\tictactoe.xml
